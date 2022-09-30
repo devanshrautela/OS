@@ -7,8 +7,8 @@ int pi=fork();
 if(pi==0)
 {
      sleep(5);
-     printf("child_pid= %d and parent_pid= %d\n",getpid(),getppid());}
+     printf("Child Process_pid= %d \nParent_pid= %d\n",getpid(),getppid());}
 else{
-     printf("child_pid= %d and parent_pid= %d\n",getpid(),getppid());}
+     printf("Child Process_pid= %d \nParent_pid= %d\n",getpid(),getppid());}
 return 0;
 }
