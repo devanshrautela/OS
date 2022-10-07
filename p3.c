@@ -5,12 +5,12 @@ int main(){
 int pi=fork();
 if(pi==0)
 {
-     printf("Process_id= %d \nProcess_id= %d\n",getpid(),getppid());
+     printf("Process_id= %d \nParent_pid= %d\n",getpid(),getppid());
 }
 else
 {
      sleep(5);
-     printf("Process_id= %d \nProcess_id= %d\n",getpid(),getppid());
+     printf("Process_id= %d \nParent_pid= %d\n",getpid(),getppid());
 }
 return 0;
 }

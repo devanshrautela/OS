@@ -9,12 +9,12 @@ int even=0;
 for(int i=0;i<9;i++){
   if(arr[i]%2==0){
     even+=arr[i]; }}
-printf("sum of even= %d \nat Process_id= %d \n",even,getpid());}
+printf("sum of even= %d \nat Process_id= %d and parent_pid= %d\n",even,getpid(),getppid());}
 else{
 int odd=0;
 for(int i=0;i<9;i++){
   if(arr[i]%2!=0){
  odd+=arr[i];}}
-printf("sum of odd= %d \nat Process_pid= %d \n",odd,getpid());}
+printf("sum of odd= %d \nat Process_pid= %d and parent_pid= %d\n",odd,getpid(),getppid());}
 return 0;
 }

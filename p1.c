@@ -20,6 +20,6 @@ int main()
     // program after this instruction
     fork();
   
-    printf("Hello world!\n");
+    printf("Process id = %d\n",getpid());
     return 0;
 }
