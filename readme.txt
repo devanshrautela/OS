@@ -2,3 +2,15 @@ operating system playlist
 https://youtube.com/playlist?list=PLevuEtnAdteQGUlTCdh9a1Q4zN-_hxJQl
 dbms playlist
 https://youtube.com/playlist?list=PLevuEtnAdteS3QPpK5-GKtGOme6gaZrs3
+ 1 days ago
+ 2 days ago
+ 3 days ago
+ 4 days ago
+ 5 days ago 
+ 6 days ago
+ 7 days ago 
+ 8 days ago
+ 9 days ago
+ 10 days ago
+ 11 days ago
+ 12 days ago
