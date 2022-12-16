@@ -66,8 +66,6 @@ int main()
     float srt = 0, art = 0;               // Sum of Response Time and Average Response Time
     float thput = 0;                      // Throughput
     
-    printf("Ayush Maheshwari\tSection - C\tRoll No. - 15\n\n");
-    
     printf("Enter the number of processes : ");
     scanf("%d", &n);
     
@@ -135,7 +133,7 @@ int main()
     printf("\nPID\tAT\tBT\tST\tCT\tTAT\tWT\tRT\n");
     for(int i = 0; i < n; i++)
     {
-        printf("P%d\t%d\t%d\t%d\t%d\t%d\t%d\t%d\n", p[i].pid, p[i].at, p[i].bt, p[i].st, p[i].ct, p[i].tat, p[i].wt, p[i].rt);
+        printf("P%d\t%d\t%d\t%d\t%d\t%d\t%d\t%d \n", p[i].pid, p[i].at, p[i].bt, p[i].st, p[i].ct, p[i].tat, p[i].wt, p[i].rt);
     } 
 
     printf("\nAverage Response Time : %f\nAverage of Turn Around Time : %f\n", art, atat); 

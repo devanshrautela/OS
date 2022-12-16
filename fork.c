@@ -18,9 +18,9 @@ int main()
     // make two process which run same
     // program after this instruction
     //duplicate the recent function
+    printf("Devansh Rautela Sec - C Rollno. - 20\n");
     fork();
-    printf("Hello World!\n");
-    printf("Get PID : %d\n\n", getpid());
+    printf("The Process ID : %d\n\n", getpid());
     
     return 0;
 }

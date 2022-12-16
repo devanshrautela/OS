@@ -93,6 +93,7 @@ ps[min_index].at;
  // prev= ps[min_index].ct; // or current_time;
  }
  }
+
  }
  //Calculate Length of Process completion cycle
  max_completion_time = INT_MIN;
@@ -104,10 +105,10 @@ ps[min_index].at;
  }
  length_cycle = max_completion_time - min_arrival_time;
  //Output
- printf("\nProcess No.\tAT\tCPU_Burst_Time\tCT\tTAT\tWT\tRT\n");
+ printf("\nProcess No.\tAT\tCPU Burst Time\tCT\tTAT\tWT\tRT\n");
  for(int i=0;i<n;i++)
  
-printf("%d\t\t%d\t%d\t\t%d\t%d\t%d\t%d \n",ps[i].pid,ps[i].at,ps[i].bt,ps[i].ct,ps[i].tat,ps[i].wt,ps[i].rt);
+printf("%d\t\t%d\t%d\t\t%d\t%d\t%d\t%d\n",ps[i].pid,ps[i].at,ps[i].bt,ps[i].ct,ps[i].tat,ps[i].wt,ps[i].rt);
  printf("\n"); 
  
  cpu_utilization = (float)(length_cycle - total_idle_time)/ length_cycle;
