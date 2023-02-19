@@ -59,9 +59,9 @@ int compare(const void *p1, const void *p2)
 int main()
 {
     int n;                                // Number of Process 
-    float swt = 0, stat = 0;              // Sum of Waiting Time and Sum of Turn Around Time
+    float stat = 0, atat = 0;              // Sum of Waiting Time and Sum of Turn Around Time
     float cu = 0;                         // CPU Utilization
-    float awt = 0, atat = 0;              // Average Waiting Time and Average Turn Around Time
+    float swt = 0, awt = 0;              // Average Waiting Time and Average Turn Around Time
     int sbt = 0;                          // Sum of Burst Time 
     float srt = 0, art = 0;               // Sum of Response Time and Average Response Time
     float thput = 0;                      // Throughput
@@ -126,7 +126,6 @@ int main()
             max = p[i].ct ;
         }
     }
-    
     thput = n / max;
     cu = (sbt / max)*100 ;   
  
